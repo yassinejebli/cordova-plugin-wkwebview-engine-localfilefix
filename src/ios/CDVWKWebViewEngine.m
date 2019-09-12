@@ -94,7 +94,10 @@
 
     WKWebViewConfiguration* configuration = [self createConfigurationFromSettings:settings];
     configuration.userContentController = userContentController;
-
+    // allow access to file api (to fix xhr loading local file issue)
+    @try {
+        [configuration.preferences setValue:@TRUE forKey:@"allowFileAccessFromFileURLs"];
+    }@catch (NSException *exception) {}
     // re-create WKWebView, since we need to update configuration
     WKWebView* wkWebView = [[WKWebView alloc] initWithFrame:self.engineWebView.frame configuration:configuration];
     wkWebView.UIDelegate = self.uiDelegate;
