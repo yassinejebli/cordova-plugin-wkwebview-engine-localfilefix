@@ -21,13 +21,13 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-wkwebview-engine"
+    id="cordova-plugin-wkwebview-engine-localfilefix"
     version="1.2.2-dev">
     <name>Cordova WKWebView Engine</name>
     <description>Cordova WKWebView Engine Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,wkwebview,webview</keywords>
-    <repo>https://github.com/apache/cordova-plugin-wkwebview-engine</repo>
+    <repo>https://github.com/apache/cordova-plugin-wkwebview-engine-localfilefix</repo>
 
 	<engines>
         <engine name="cordova-ios" version=">=4.0.0-dev" />
