@@ -1,14 +1,14 @@
 {
-  "name": "cordova-plugin-wkwebview-engine",
+  "name": "cordova-plugin-wkwebview-engine-localfilefix",
   "version": "1.2.2-dev",
   "description": "The official Apache Cordova WKWebView Engine Plugin",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-wkwebview-engine"
+    "url": "https://github.com/apache/cordova-plugin-wkwebview-engine-localfilefix"
   },
   "bugs": {
-    "url": "https://github.com/apache/cordova-plugin-wkwebview-engine/issues"
+    "url": "https://github.com/apache/cordova-plugin-wkwebview-engine-localfilefix/issues"
   },
   "keywords": [
     "cordova",
